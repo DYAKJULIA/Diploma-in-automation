@@ -1,6 +1,7 @@
 import allure
-from API.Clients.kinopoisk_client import KinopoiskClient
 from Config.settings import Settings
+from API.Clients.kinopoisk_client import KinopoiskClient
+
 
 @allure.feature("API тесты")
 @allure.story("Поиск фильма по ID")
